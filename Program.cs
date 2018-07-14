@@ -1,4 +1,5 @@
 ﻿using System;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -6,21 +7,44 @@ namespace SeleniumFirst
 {
     class Program
     {
+        // Create reference for driver
+        IWebDriver driver = new ChromeDriver();
         static void Main(string[] args)
         {
-            // Create reference for driver
-            IWebDriver driver = new ChromeDriver(); 
+        }
 
+        [SetUp]
+        public void Initialize()
+        {
             // Navigate to google
-            driver.Navigate().GoToUrl("www.google.com");
+            driver.Navigate().GoToUrl("http://executeautomation.com/demosite/index.html?UserName=&Password=&Login=Login");
+            System.Console.WriteLine("opened URL");
+        }
 
-            // Find the element
-            IWebElement element = driver.FindElement(By.Name("q"));
+        [Test]
+        public void ExecuteTest()
+        {
+          //Title
+          SeleniumSetMethods.SelectDropDown(driver, "TitleId", "Mr.", "Id");
 
-            //Perform Ops
-            element.SendKeys("executeautomation");
+          //Initial
+          SeleniumSetMethods.EnterText(driver, "Initial", "executeautomation", "Name");
 
+          // Click
+          SeleniumSetMethods.Click(driver, "Save", "Name");
+        }
+
+        [Test]
+        public void NextTest()
+        {
+            System.Console.WriteLine("next method");
+        }
+
+        [TearDown]
+        public void CleanUp()
+        {
             driver.Close();
+            System.Console.WriteLine("close browser");
         }
     }
 }

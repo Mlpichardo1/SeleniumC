@@ -252,6 +252,36 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "NUnit/3.10.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
+      },
+      "Selenium.Support/3.13.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.13.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {}
+        }
+      },
       "Selenium.WebDriver/3.13.1": {
         "type": "package",
         "dependencies": {
@@ -1393,6 +1423,73 @@
         "newtonsoft.json.10.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "NUnit/3.10.1": {
+      "sha512": "E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+      "type": "package",
+      "path": "nunit/3.10.1",
+      "files": [
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net20/NUnit.System.Linq.dll",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.pdb",
+        "lib/net20/nunit.framework.xml",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.6/nunit.framework.dll",
+        "lib/netstandard1.6/nunit.framework.pdb",
+        "lib/netstandard1.6/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.10.1.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnitTestAdapter/2.1.1": {
+      "sha512": "jL9tOhRbLugacrDg0KAh3nvHinXnnVNkgiHwmKHtXk61zhpz3UvHzFOdZTfkUz7xf+VRuId1Ns5/nvHyQWaoqA==",
+      "type": "package",
+      "path": "nunittestadapter/2.1.1",
+      "files": [
+        "LICENSE.txt",
+        "nunittestadapter.2.1.1.nupkg.sha512",
+        "nunittestadapter.nuspec",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/NUnit.VisualStudio.TestAdapter.dll",
+        "tools/nunit.core.dll",
+        "tools/nunit.core.interfaces.dll",
+        "tools/nunit.util.dll"
+      ]
+    },
+    "Selenium.Support/3.13.1": {
+      "sha512": "cvk/LM2FBfne/Xdrawe667K57EDSxx9D8omJIWBym7DZYZ2sfcc46CqwkNnSxQJM4td4PRincnOUHV2FF9MhVw==",
+      "type": "package",
+      "path": "selenium.support/3.13.1",
+      "files": [
+        "lib/net35/WebDriver.Support.dll",
+        "lib/net35/WebDriver.Support.xml",
+        "lib/net40/WebDriver.Support.dll",
+        "lib/net40/WebDriver.Support.xml",
+        "lib/net45/WebDriver.Support.dll",
+        "lib/net45/WebDriver.Support.xml",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.3.13.1.nupkg.sha512",
+        "selenium.support.nuspec"
       ]
     },
     "Selenium.WebDriver/3.13.1": {
@@ -3617,6 +3714,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.NETCore.App >= 2.1.0",
+      "NUnit >= 3.10.1",
+      "NUnitTestAdapter >= 2.1.1",
+      "Selenium.Support >= 3.13.1",
       "Selenium.WebDriver >= 3.13.1",
       "Selenium.WebDriver.ChromeDriver >= 2.40.0",
       "WebDriver.ChromeDriver >= 26.14.313457.1"
@@ -3665,6 +3765,18 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.10.1, )"
+          },
+          "NUnitTestAdapter": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[3.13.1, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
