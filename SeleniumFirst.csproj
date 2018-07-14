@@ -1,8 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.13.1"/>
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="2.40.0"/>
+    <PackageReference Include="WebDriver.ChromeDriver" Version="26.14.313457.1"/>
+  </ItemGroup>
 </Project>

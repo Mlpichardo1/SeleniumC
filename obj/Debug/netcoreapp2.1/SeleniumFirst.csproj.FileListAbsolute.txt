@@ -1,0 +1,11 @@
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/SeleniumFirst.deps.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/SeleniumFirst.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/SeleniumFirst.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/SeleniumFirst.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/SeleniumFirst.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.pdb
