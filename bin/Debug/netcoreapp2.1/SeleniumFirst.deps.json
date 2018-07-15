@@ -1,13 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7664b4e0f2d64a0991f78b5784b4f921eb18d8c3"
+    "signature": "b39b9947567fa65089f8c5331cd119d64f49f1de"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "SeleniumFirst/1.0.0": {
         "dependencies": {
+          "NUnit": "3.10.1",
+          "NUnitTestAdapter": "2.1.1",
+          "Selenium.Support": "3.13.1",
           "Selenium.WebDriver": "3.13.1",
           "Selenium.WebDriver.ChromeDriver": "2.40.0",
           "WebDriver.ChromeDriver": "26.14.313457.1"
@@ -48,6 +51,26 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.3.21018"
+          }
+        }
+      },
+      "NUnit/3.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.10.1.0",
+            "fileVersion": "3.10.1.0"
+          }
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {},
+      "Selenium.Support/3.13.1": {
+        "dependencies": {
+          "Selenium.WebDriver": "3.13.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "3.13.1.0",
+            "fileVersion": "3.13.1.0"
           }
         }
       },
@@ -406,6 +429,27 @@
       "sha512": "sha512-hSXaFmh7hNCuEoC4XNY5DrRkLDzYHqPx/Ik23R4J86Z7PE/Y6YidhG602dFVdLBRSdG6xp9NabH3dXpcoxWvww==",
       "path": "newtonsoft.json/10.0.3",
       "hashPath": "newtonsoft.json.10.0.3.nupkg.sha512"
+    },
+    "NUnit/3.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+      "path": "nunit/3.10.1",
+      "hashPath": "nunit.3.10.1.nupkg.sha512"
+    },
+    "NUnitTestAdapter/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jL9tOhRbLugacrDg0KAh3nvHinXnnVNkgiHwmKHtXk61zhpz3UvHzFOdZTfkUz7xf+VRuId1Ns5/nvHyQWaoqA==",
+      "path": "nunittestadapter/2.1.1",
+      "hashPath": "nunittestadapter.2.1.1.nupkg.sha512"
+    },
+    "Selenium.Support/3.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cvk/LM2FBfne/Xdrawe667K57EDSxx9D8omJIWBym7DZYZ2sfcc46CqwkNnSxQJM4td4PRincnOUHV2FF9MhVw==",
+      "path": "selenium.support/3.13.1",
+      "hashPath": "selenium.support.3.13.1.nupkg.sha512"
     },
     "Selenium.WebDriver/3.13.1": {
       "type": "package",

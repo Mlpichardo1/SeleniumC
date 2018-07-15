@@ -10,5 +10,6 @@
     <PackageReference Include="NUnitTestAdapter" Version="2.1.1"/>
     <PackageReference Include="NUnit" Version="3.10.1"/>
     <PackageReference Include="Selenium.Support" Version="3.13.1"/>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="3.12.0"/>
   </ItemGroup>
 </Project>
