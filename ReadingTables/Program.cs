@@ -20,6 +20,9 @@ namespace ReadingTables
             System.Console.WriteLine("The Name {0} with Email {1} and Phone{2}", 
             Utilities.ReadCell("Name", 2), Utilities.ReadCell("Email", 2), Utilities.ReadCell("Phone", 2)); 
             
+            //Delete
+            Utilities.PerformActionOnCell("5", "Name", "Manny", "Delete");
+
             Console.Read();
         }
     }
