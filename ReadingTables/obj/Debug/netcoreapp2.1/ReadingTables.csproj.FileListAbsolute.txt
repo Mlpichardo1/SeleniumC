@@ -1,0 +1,11 @@
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/bin/Debug/netcoreapp2.1/ReadingTables.deps.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/bin/Debug/netcoreapp2.1/ReadingTables.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/bin/Debug/netcoreapp2.1/ReadingTables.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/bin/Debug/netcoreapp2.1/ReadingTables.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/bin/Debug/netcoreapp2.1/ReadingTables.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/ReadingTables/obj/Debug/netcoreapp2.1/ReadingTables.pdb
