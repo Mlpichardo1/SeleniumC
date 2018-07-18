@@ -11,7 +11,7 @@ namespace SeleniumFirst
 {
     public class ExcelLib
     {
-        public static DataTable ExcelToDataTable(string fileName)
+        private static DataTable ExcelToDataTable(string fileName)
         {
             //open file and returns as Stream
             FileStream stream = File.Open(fileName, FileMode.Open, FileAccess.Read);
@@ -31,9 +31,9 @@ namespace SeleniumFirst
             //return
             return resultTable;
         }
-        List<Datacollection> dataCol = new List<Datacollection>();
+        static List<Datacollection> dataCol = new List<Datacollection>();
  
-        public void PopulateInCollection(string fileName)
+        public static void PopulateInCollection(string fileName)
         {
             DataTable table = ExcelToDataTable(fileName);
         
@@ -54,7 +54,7 @@ namespace SeleniumFirst
             }
         }
 
-        public string ReadData(int rowNumber, string columnName)
+        public static string ReadData(int rowNumber, string columnName)
         {
             try
             {

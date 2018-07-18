@@ -5,13 +5,15 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Selenium.WebDriver" Version="3.13.1"/>
-    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="2.40.0"/>
-    <PackageReference Include="WebDriver.ChromeDriver" Version="26.14.313457.1"/>
     <PackageReference Include="NUnitTestAdapter" Version="2.1.1"/>
     <PackageReference Include="NUnit" Version="3.10.1"/>
     <PackageReference Include="Selenium.Support" Version="3.13.1"/>
     <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="3.12.0"/>
     <PackageReference Include="ExcelDataReader" Version="3.4.0"/>
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.4.0"/>
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0"/>
+    <PackageReference Include="NUnit.Console" Version="3.8.0"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0"/>
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="2.40.0"/>
   </ItemGroup>
 </Project>

@@ -7,14 +7,15 @@ namespace SeleniumFirst
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-        }
+        // static void Main(string[] args)
+        // {
+        // }
 
         [SetUp]
         public void Initialize()
         {
-            PropertiesCollection.driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver(@”C:\chromedriver”);
+            PropertiesCollection.driver = new ChromeDriver(@"/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1");
             // Navigate to google
             PropertiesCollection.driver.Navigate().GoToUrl("http://executeautomation.com/demosite/Login.html");
             System.Console.WriteLine("opened URL");
@@ -23,10 +24,12 @@ namespace SeleniumFirst
         [Test]
         public void ExecuteTest()
         {
+            ExcelLib.PopulateInCollection(@"/Users/jennypichardo/Desktop/Data.xlsx");
+
             // Login to Application
             LoginPageObject pageLogin = new LoginPageObject();
-            EAPageObject pageEA = pageLogin.Login("execute", "automation");
-            pageEA.FillUserForm("MP", "Manny", "Automation");
+            EAPageObject pageEA = pageLogin.Login(ExcelLib.ReadData(1, "UserName"), ExcelLib.ReadData(1, "Password"));
+            pageEA.FillUserForm(ExcelLib.ReadData(1, "Initial"), ExcelLib.ReadData(1, "MiddleName"), ExcelLib.ReadData(1, "FirstName"));
         }
 
         [Test]

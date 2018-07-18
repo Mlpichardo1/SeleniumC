@@ -1,0 +1,14 @@
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/SeleniumParallelTest.deps.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/SeleniumParallelTest.runtimeconfig.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/SeleniumParallelTest.runtimeconfig.dev.json
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/SeleniumParallelTest.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/SeleniumParallelTest.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.csprojAssemblyReference.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.csproj.CoreCompileInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.AssemblyInfoInputs.cache
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.AssemblyInfo.cs
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/obj/Debug/netcoreapp2.1/SeleniumParallelTest.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/SeleniumParallelTest/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll

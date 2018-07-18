@@ -9,3 +9,7 @@
 /Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.AssemblyInfo.cs
 /Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.dll
 /Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/obj/Debug/netcoreapp2.1/SeleniumFirst.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
+/Users/jennypichardo/Desktop/visProjects/SeleniumC/SeleniumFirst/bin/Debug/netcoreapp2.1/Mono.Cecil.dll
